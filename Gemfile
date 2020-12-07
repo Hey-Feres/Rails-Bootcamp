@@ -17,6 +17,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rack-cors'
 # For use with client side single page apps such as the venerable
 gem 'devise_token_auth', '~> 1.1.4'
+# Used for debug
+gem 'pry'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
